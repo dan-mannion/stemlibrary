@@ -1,0 +1,79 @@
+*{	
+	font-family: Arial;
+}
+html{
+	text-align:center;
+}
+body{
+	max-width:700px;
+	margin: auto;
+	background-color:gray;	
+	background-image: url("BkgImg.png");
+}
+
+#title{
+	background-color: #3C3C3C;
+	margin: 0px 0px 0px 0px;
+	color: #EEEEEE;
+	text-align: center;
+}
+
+#subtitle{
+	background-color: #F38200;
+	margin: 0px 0px 0px 0px;
+	color: #EEEEEE;
+	text-align: center;
+	font-family: Arial;
+}
+
+#bottom{
+	height: 500px;
+	background-color: #DDDDDD;
+	text-align: center;
+}
+
+span#menu{
+	background-color: #3C3C3C;
+	color: #EEEEEE;	
+	display: inline-block;
+	width: 20%;
+	max-width: 150px;
+	margin: 0 auto;
+	float: left;
+	height: 100%;
+	font-size: 	13;
+}
+
+span#content{
+	text-align: justify;
+	display: inline-block;
+	width: 70%;
+	margin: 0 auto;
+}
+span#content p{
+	font-size: 13;
+	text-align: justify;
+}
+span#content a{	
+	color: #02749E;
+	text-decoration: none;
+	text-decoration-style: bold;
+}
+
+
+li{
+	list-style-type: none;
+	padding-left: 0px;
+	padding-top: 10px;
+	font-family: Arial;
+}
+
+a{	
+	color: #EEEEEE;
+	text-decoration: none;
+}
+
+img.icon{
+	width: 35%;
+	margin-left: 20px;
+}
